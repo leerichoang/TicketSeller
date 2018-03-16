@@ -1,0 +1,16 @@
+/*
+3/15/2018 8:31PM
+NOTE: 
+	* 	I think I finished the easy version without the array.
+	*	Using type works better with the function pthread, so you won't get casting warnings
+	* 	Possible Error Case: at ticket Sold==1000, 1000%20==0 that means the loop 
+	-	will keep going until buyer==0 and at buyer equal to 0 there's still 1 ticket left
+	*	I commented the lock out because it seems like only one thread is working when i had it on
+*/
+
+
+Concurrency
+Ticket buying (browsing grabs for 2 minutes, auto-returning to pool after 2 minutes, 
+buying takes ticket out of inventory, 20 random ticket returns of 1 ticket), 
+big event of 500 tickets, 3 sellers, 1000 buyers of 1, 2, 3 tickets wanted
+
