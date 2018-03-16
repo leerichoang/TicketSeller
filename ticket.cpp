@@ -1,6 +1,6 @@
 /*
 NOTE: 
-	*	Using type works better with the function pthread, so you won't get casting warnings
+	*	Using type long works better with the function pthread, so you won't get casting warnings
 	* 	Possible Error Case: at ticket Sold==1000, 1000%20==0 that means the loop 
 	-	will keep going until buyer==0 and at buyer equal to 0 there's still 1 ticket left
 */
